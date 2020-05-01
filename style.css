@@ -1,0 +1,72 @@
+html {
+  font-size: 16px;
+}
+
+.axes-labels text {
+  font-size: 0.6em;
+  fill: #444;
+}
+
+body {
+  /* font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  color:#000; */
+  display: flex;
+}
+
+.selected-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.selected-header {
+  background: #f0f0f0;
+  color: #777;
+  padding: 0.5rem 2rem;
+  text-align: left;
+}
+
+.selected-body {
+  overflow: auto;
+  font-size: 0.8em;
+  cursor: default;
+}
+
+.selected-title{
+  font-weight: bold;
+}
+
+.selected-element{
+  margin: 0.5em;
+  padding: 0.5em;
+  transition: background-color 200ms ease;
+}
+
+.selected-element:hover {
+  background-color: #f0f0f0;
+}
+
+svg {
+  border: 1px solid #ccc;
+}
+
+text {
+  font-family: 'Avenir', sans-serif;
+}
+
+.axis .domain {
+  stroke: #bbb;
+}
+
+.axis .tick line {
+  stroke: #bbb;
+  stroke-width: 0.5;
+  stroke-dasharray: 4, 2;
+}
+
+
+
+
+
+
